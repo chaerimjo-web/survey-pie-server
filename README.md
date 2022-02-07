@@ -58,6 +58,8 @@ npm run start
 ]
 ```
 
+---
+
 #### `[POST] /surveys`
 
 설문 생성
@@ -81,6 +83,8 @@ npm run start
   ]
 }
 ```
+
+---
 
 #### `[GET] /surveys/{surveyId}`
 
@@ -133,6 +137,8 @@ npm run start
 }
 ```
 
+---
+
 #### `[PUT] /surveys/{surveyId}`
 
 설문 수정
@@ -163,6 +169,8 @@ npm run start
 }
 ```
 
+---
+
 #### `[DELETE] /surveys/{surveyId}`
 
 설문 삭제
@@ -172,6 +180,8 @@ npm run start
 | Name     | Type     | Description |
 | -------- | -------- | ----------- |
 | surveyId | `Number` | 설문 ID     |
+
+---
 
 ### answers
 
@@ -196,6 +206,8 @@ npm run start
   }
 ]
 ```
+
+---
 
 #### `[POST] /answers`
 
